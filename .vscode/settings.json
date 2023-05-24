@@ -1,0 +1,7 @@
+{
+    "cmake.configureOnOpen": true,
+    "debug.console.fontFamily": "Consolas, 'Courier New', monospace",
+    "debug.console.fontSize": 12,
+    "debug.console.lineHeight": 20,
+    "cmake.sourceDirectory": "E:/Work/Flutter/battery/linux",
+}
