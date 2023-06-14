@@ -1,6 +1,9 @@
 Складской учет.
+
 Тестовый Android проект с реализацией поячеистого учета на примере аккумуляторного завода.
-Backend: Python,
+
+Backend: Python
+
 Data Base: MySQL
 
 тестированлось на Samsung Galaxy A-33 5G
