@@ -1,16 +1,41 @@
-# battery
+Складской учет.
 
-A new Flutter project.
+Тестовый Android проект с реализацией поячеистого учета на примере аккумуляторного завода.
 
-## Getting Started
+Backend: Python
 
-This project is a starting point for a Flutter application.
+Data Base: MySQL
 
-A few resources to get you started if this is your first Flutter project:
+тестированлось на Samsung Galaxy A-33 5G
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Основные возможности:
+- поступление комплектующих, сырья и материалов;
+- автоматическое размещение по свободным ячейкам в зависимости от размера паллета и высоты с отправкой QR кодов на эл. почту;
+- реестр комплектующих, сырья и материалов со следующим меню:
+    - ручной поиск объекта;
+    - идентификация объекта по QR коду;
+    - операция поступления комплектующих, сырья и материалов;
+    - номенклатура склада (создание, редактирование);
+    - реестр цветовой палитры (создание, редактирование);
+    - реестр поставщиков (создание, редактирование);
+- подробная информация об объекте со следующим подменю:
+    - ручное перемещение между ячейками склада;
+    - ручная отправка QR кода на эл. почту;
+    - история паллета (все операции с момента поступления);
+    - загрузка изображений комплектующих, сырья и материалов из галереи устройства или камеры устройства;
+    - изменение статуса комплектующих, сырья и материалов (остановка или вообновление движения);
+    - редактирование объекта (категории, наименования, цвета, поставщика, количества и ед. измерения);
+    - удаление объекта;
+- создание заявок на выдачу комплектующих, сырья и материалов со склада;
+- выдача комплектующих, сырья и материалов со склада по заявкам с QR код контролем;
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/SergeiSMV/battery/assets/67837102/7da2d81f-05ef-4292-aa2d-40095f84b88b) 
+![image](https://github.com/SergeiSMV/battery/assets/67837102/26d555a3-ce95-4e67-bb6d-d610f6b7da2d)  
+![image](https://github.com/SergeiSMV/battery/assets/67837102/6fb1d7a6-807b-4cbe-85ea-9c71b499c6f0)
+![image](https://github.com/SergeiSMV/battery/assets/67837102/5e8700b7-3c50-41ec-85fd-7facf70f2614)
+
+
+
+
+
+
