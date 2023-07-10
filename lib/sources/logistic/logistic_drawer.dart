@@ -1,3 +1,4 @@
+import 'package:battery/static/api/connection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -39,6 +40,10 @@ class LogisticDrawer{
     elements.add(const SizedBox(height: 30,));
     // elements.add(ListTile(title: const Text('личный кабинет', textAlign: TextAlign.center,), onTap: (){  },));
     elements.add(ListTile(title: const Text('выйти из аккаунта', textAlign: TextAlign.center,), onTap: (){ unlogin(context); },));
+
+    elements.add(TextButton(onPressed: (){
+      Connection(route: 'sim_load_items').connect();
+    }, child: const Text('upload')));
 
     return elements;
 

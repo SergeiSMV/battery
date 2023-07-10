@@ -104,7 +104,7 @@ class ItemButtons{
             imageLinks.removeAt(index);
             await itemDeleteImage(itemData, delLink).then((value){ selectedItemContext.read<ItemPhotoBloc>().add(ItemPhotoChange(data: imageLinks.toList())); });
           }, 
-          icon: const Icon(MdiIcons.delete, color: Colors.white, size: 25,),
+          icon: Icon(MdiIcons.delete, color: Colors.white, size: 25,),
         )
       ),
     );

@@ -41,10 +41,10 @@ class SimAllOrders{
 
         late Widget trailing;
 
-        if (order.status == 0){ trailing = const Icon(MdiIcons.bookmarkRemove, size: 30, color: Colors.red); }
-        else if (order.status == 1) { trailing = const Icon(MdiIcons.bookmarkPlus, size: 30, color: Colors.blue); }
-        else if (order.status == 2) { trailing = const Icon(MdiIcons.bookmarkMinus, size: 30, color: Colors.yellow); } 
-        else { trailing = const Icon(MdiIcons.bookmarkCheck, size: 30, color: Colors.green); }
+        if (order.status == 0){ trailing = Icon(MdiIcons.bookmarkRemove, size: 30, color: Colors.red); }
+        else if (order.status == 1) { trailing = Icon(MdiIcons.bookmarkPlus, size: 30, color: Colors.blue); }
+        else if (order.status == 2) { trailing = Icon(MdiIcons.bookmarkMinus, size: 30, color: Colors.yellow); } 
+        else { trailing = Icon(MdiIcons.bookmarkCheck, size: 30, color: Colors.green); }
     
         return Padding(
           padding: const EdgeInsets.all(3.0),

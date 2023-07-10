@@ -111,7 +111,7 @@ class EditOrderDialog {
                           focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.transparent)),
                           hintStyle: TextStyle(fontSize: 13, color: Colors.grey.shade400, fontFamily: 'Montserrat'),
                           hintText: comment.isEmpty ? 'укажите комментарий' : comment,
-                          prefixIcon: const IconTheme(data: IconThemeData(color: Color(0xFF78909C)), child: Icon(MdiIcons.textBox, size: 20)),
+                          prefixIcon: IconTheme(data: const IconThemeData(color: Color(0xFF78909C)), child: Icon(MdiIcons.textBox, size: 20)),
                         ),
                         onChanged: (value) {
                           context.read<ItemCommentBloc>().add(ItemCommentChangeEvent(data: value));
